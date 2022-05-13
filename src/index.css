@@ -10,4 +10,12 @@ body {
   background-color: hsl(225, 100%, 94%);
   background-repeat: no-repeat;
   background-position: center top;
+  width:100vw;
+}
+
+@media screen and (min-width: 400px) {
+  body {
+    background-image: url('./components/images/pattern-background-desktop.svg');
+    background-position:top;
+  }
 }

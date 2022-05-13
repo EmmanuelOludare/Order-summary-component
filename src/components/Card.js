@@ -9,7 +9,7 @@ const Card = () => {
       <p>You can now listen to millions of songs, audiobooks, and podcasts on any device anywhere you like!</p>
        <Plans />
       <button>Proceed to Payment</button>
-      <h4>Cancel Order</h4>
+      <h4 className="cancel">Cancel Order</h4>
     </div>
   )
 }
