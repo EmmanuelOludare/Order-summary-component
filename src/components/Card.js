@@ -1,8 +1,10 @@
-import React from 'react'
+import Hero from './images/illustration-hero.svg'
 
 const Card = () => {
   return (
-    <div>Card</div>
+    <div className="card">
+      <img src={Hero} alt="" />
+    </div>
   )
 }
 
